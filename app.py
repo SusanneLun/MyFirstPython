@@ -1,3 +1,5 @@
-age: int = 20
-age = "Python"
-print(age)
+x = 1
+print(id(x))
+
+x = x + 1
+print(id(x))
