@@ -1,19 +1,10 @@
 
-# using escape character (backslash) to interpret a character differently
-message = "Python \"Programming"
-print(message)
+first = "Emma"
+last = "Thompson"
+full = first + " " + last
+print(full)
 
-# \"
-# \'
-# \\
-# \n - for new line like below
-
-mess = "Python \nProgramming"
-print(mess)
-
-# but if writing many lines of code, better to use triple quotes, like so
-example = """
-Python 
-Programming
-"""
-print(example)
+irst = "Emma"
+last = "Thompson"
+full = f"{len(first)} {2 + 2}"
+print(full)
