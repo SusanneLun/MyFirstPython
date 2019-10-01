@@ -1,10 +1,15 @@
+course = "  Python Programming"
+print(course.upper())
+print(course.lower())
+print(course.title())
 
-first = "Emma"
-last = "Thompson"
-full = first + " " + last
-print(full)
+print(course.strip())
 
-irst = "Emma"
-last = "Thompson"
-full = f"{len(first)} {2 + 2}"
-print(full)
+print(course.find("Pro"))
+
+print(course.find("pro"))
+
+print(course.replace("P", "-"))
+
+print("Programming" in course)
+print("Programming" not in course)
