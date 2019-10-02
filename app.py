@@ -1,15 +1,13 @@
-course = "  Python Programming"
-print(course.upper())
-print(course.lower())
-print(course.title())
+x = 10
+x = 0b10
+print(x)
+# takes any number and returns its binary representation
+print(bin(x))
+# numbers in hexadecimal format
+x = 0x12c
+print(hex(x))
 
-print(course.strip())
-
-print(course.find("Pro"))
-
-print(course.find("pro"))
-
-print(course.replace("P", "-"))
-
-print("Programming" in course)
-print("Programming" not in course)
+# a + bi
+# j is like i in maths, you can use upper or lower case
+x = 1 + 2j
+print(x)
