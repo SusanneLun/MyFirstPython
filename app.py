@@ -1,18 +1,15 @@
-x = 10 + 3
-x = 10 - 3
-x = 10 * 3
-# will give you decimals
-x = 10 / 3
-# will give you an integer
-x = 10 // 3
-# remainder of a division
-x = 10 % 3
-# exponent
-x = 10 ** 3
+import math
 
-# if we want to add one to x, we can either
-x = x + 1
-# OR we can use an augmented operator
-x += 1
+# uppder case letters indicates constant (remember)
+PI = 3.14
+# rounding the number
+print(round(PI))
+# abs stands for absolute number, so if negative, a positive number is the output
+print(abs(PI))
+# for all built-in functions in python, search the web for 'python 3 built-in functions"
 
-print(x)
+# once you have imported math (see above) you use the dot notation to view all the functions
+math.floor(PI)
+print(math.floor(PI))
+
+# search the web for 'python 3 math module' for all the functions and their descriptions
